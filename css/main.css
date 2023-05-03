@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.all__border {
+    max-width: 1903px;
+    margin: 0 auto;
+}
+.header {
+    padding-top: 50px;
+    background-image: url(../images/Frame\ 8.png);
+    background-size: 1903px 840px;
+}
+.home {
+    width: 1200px;
+    margin: 0 auto;
+}
+.home .logo {
+    width: 420px;
+    height: 61px;
+    display: block;
+}
+.home .text__img {
+    margin-top: 190px;
+    width: 473px;
+    height: 83px;
+}
+.home .lorem {
+    font-family: "TT Hoves";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333333;
+    width: 425px;
+    margin-top: 30px;
+}
+.btn {
+    background: #e15252;
+    border-radius: 42px;
+    padding: 12px 44px;
+    margin-top: 30px;
+    font-family: "TT Hoves";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #ffffff;
+    border: none;
+}
+.button__1 {
+    margin-bottom: 280px;
+}
+/* ---- servise-- */
+.secton__service {
+    text-align: center;
+}
+.service {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 100px 100px 10px;
+    background: #f2f2f2;
+    border-radius: 0px 0px 50px 50px;
+}
+.service h1 {
+    font-family: "TT Hoves";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    color: #333333;
+}
+.service h4 {
+    font-family: "TT Hoves";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    color: #e15252;
+    padding-bottom: 100px;
+}
+.service__container {
+    display: flex;
+    align-items: center;
+    gap: 94px;
+    margin-top: 40px;
+}
+.box img {
+    width: 200px;
+    border-radius: 100%;
+    border: 12px solid #e15252;
+}
+.box h2 {
+    font-family: "TT Hoves";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    color: #333333;
+    margin-top: 8px;
+}
+.box p {
+    font-family: "TT Hoves";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4f4f4f;
+    margin-top: 10px;
+}
+.button__2 {
+    margin-top: 50px auto;
+}
+/* --- About Us */
+.about {
+    background-image: url(../images/Frame\ 11.png);
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+.about .home h1 {
+    font-family: "TT Hoves";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+    color: #ffffff;
+}
+.about .home h4 {
+    font-family: "TT Hoves";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    color: #333333;
+    margin-top: 10px;
+}
+.about__container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+    background-color: #ffffff;
+    border-radius: 50px 50px 0px 0px;
+    text-align: left;
+}
+#company {
+    font-family: "Vampiro One";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 46px;
+    line-height: 100%;
+    text-align: left;
+    color: #333333;
+}
+hr {
+    margin-top: 22px;
+    width: 90px;
+    height: 2px;
+    border-radius: 1px;
+    background: #e15252;
+}
+.about__box p {
+    margin-top: 20px;
+    font-family: "TT Hoves";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #4f4f4f;
+    width: 352px;
+}
+/* ----------- footer-----------------> */
+.bg-img {
+    background-image: url(../images/end\ bgimg.png);
+    padding-bottom: 50px;
+}
+.footer {
+    padding-top: 50px;
+    text-align: center;
+    background: #e15252;
+    border-radius: 0px 0px 50px 50px;
+    padding-bottom: 140px;
+}
+.footer h1 {
+    font-family: "TT Hoves";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: center;
+
+    color: #ffffff;
+}
+.footer__container {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    gap: 100px;
+    margin-left: -120px;
+}
+input {
+    display: block;
+    border: 0px;
+    background: #ffffff;
+    border-radius: 61px;
+    width: 374px;
+    height: 56px;
+    padding: 5px 20px;
+    margin-bottom: 14px;
+}
+input:focus {
+    border: none;
+    outline: none;
+}
+.button__4 {
+    padding: 28px 84px;
+    margin-left: -580px;
+    background-color: #e15252;
+    border: 1px solid #ffffff;
+}
+
+.box__4 p {
+    font-family: "TT Hoves";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 36px;
+    color: #ffffff;
+}
+.box__4 p img {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: -3px;
+}
+/* ---  finish ---- */
+.finish {
+    height: 92px;
+    background-color: #c4c4c4;
+}
